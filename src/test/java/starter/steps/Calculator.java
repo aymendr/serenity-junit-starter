@@ -12,11 +12,12 @@ public class Calculator {
 
 	public void add(int amount) {
 		// TODO Auto-generated method stub
+		total = total + amount;
 	}
 
 	public int getTotal() {
 		// TODO Auto-generated method stub
-		return 0;
+		return total;
 	}
 
 }
